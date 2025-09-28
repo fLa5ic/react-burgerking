@@ -1,0 +1,30 @@
+@import '../../scss/variables';
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+
+  padding: 0.8rem;
+  border-bottom: .1rem solid #d7c7b4;
+
+  & img {
+    display: block;
+    width: 8rem;
+  }
+
+  .right {
+    font-size: 1.6rem;
+
+    .title {
+      font-weight: 800;
+      color: $main;
+      margin-bottom: 1.7rem;
+    }
+
+    .price {
+      font-weight: 600;
+      color: #845f50;
+    }
+  }
+}

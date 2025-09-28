@@ -1,0 +1,966 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1093198_E826A346B9C8EFD4B2B909B09B411468.webp",
+    "title": "Воппер Сырный Дуэт",
+    "price": 12.9,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 270,
+    "info": "Пробуй сырную новинку! Внутри 100%-я говядина, приготовленная на огне, под сырным соусом и тёртым пармезаном. Хрустящий салат Айсберг, свежий лук, помидоры, маринованные огурчики и майонез. В самое сЫрдечко!",
+    "allergens": "Булочка – кунжут, глютен пшеничный. Майонез – яичный желток, может содержать сельдерей, молоко, горчицу и продукты их переработки. Сыр «Палермо» – молоко и продукты его переработки. Соус Сырный – лактоза, продукты яичные.",
+    "kbju": [210, 8, 13, 16],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Маринованного Огурца",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093139.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      },
+      {
+        "id": 5,
+        "name": "Без Сырного Соуса",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093145.webp"
+      },
+      {
+        "id": 6,
+        "name": "Без Майонеза",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093142.webp"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1093194_FDD6FDF64ADA2E2073538B1BA3954907.webp",
+    "title": "Ангус 4 Сыра",
+    "price": 16.4,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 295,
+    "info": "Пробуй сырную новинку! Внутри мраморная говядина Абердин Ангус под щедрой порцией соуса Пармезан и аппетитным миксом из трёх тёртых сыров, хрустящий лук фри, помидоры и свежим салатом Айсберг на булочке бриошь. В самое сЫрдечко!",
+    "allergens": "Булочка – кунжут, глютен пшеничный, может содержать яйца, молоко и продукты их переработки. Соус «Со вкусом сыра Пармезан» - лактоза, яйца, может содержать горчицу, сельдерей. Микс трёх сыров – молоко, яйца. Лук жареный – может содержать яйца, молоко, сельдерей.",
+    "kbju": [240, 9, 15, 19],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Хрустящего Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1093196_BD1D926CC4C6360CC055CDDE3868D748.webp",
+    "title": "Ангус 4 Сыра Двойной",
+    "price": 22.9,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 385,
+    "info": "Пробуй сырную новинку! Эта сочность для тебя: двойной бифштекс 100%-й мраморной говядины Абердин Ангус, аппетитный микс из трёх тёртых сыров, хрустящий лук фри, помидоры, свежий салат Айсберг и щедрая порция соуса Пармезан на булочке бриошь. В самое сЫрдечко!",
+    "allergens": "Булочка – кунжут, глютен пшеничный, может содержать яйца, молоко и продукты их переработки. Соус «Со вкусом сыра Пармезан» - лактоза, яйца, может содержать горчицу, сельдерей. Микс трёх сыров – молоко, яйца. Лук жареный – может содержать яйца, молоко, сельдерей.",
+    "kbju": [240, 10, 16, 15],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Хрустящего Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1093196_BD1D926CC4C6360CC055CDDE3868D748.webp",
+    "title": "Воппер Сырный дуэт Двойной",
+    "price": 17.9,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 355,
+    "info": "Пробуй сырную новинку! Внутри два бифштекса фирменной говядины под щедрой порцией сырного соуса в сочетании с тёртым пармезаном. А ещё здесь майонез и овощи: салат Айсберг, помидоры, лук и маринованные огурчики. В самое сЫрдечко!",
+    "allergens": "Булочка – кунжут, глютен пшеничный. Майонез – яичный желток, может содержать сельдерей, молоко, горчицу и продукты их переработки. Сыр «Палермо» – молоко и продукты его переработки. Соус Сырный – лактоза, продукты яичные.",
+    "kbju": [220, 9.5, 15, 13],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Маринованного Огурца",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093139.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      },
+      {
+        "id": 5,
+        "name": "Без Сырного Соуса",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093145.webp"
+      },
+      {
+        "id": 6,
+        "name": "Без Майонеза",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093142.webp"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1000061_09B18D8079A4D59F6B20BCA0E11A2360.webp",
+    "title": "Биг Кинг",
+    "price": 9.8,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 189,
+    "info": "Этот сэндвич по праву носит свой титул. Он составлен с истинной королевской щедростью: в нем два приготовленных на огне фирменных бифштекса, ломтик сыра чеддер, огурчики, свежий нарезанный салат, лук и непревзойденный Бургер-Соус. И все это в подрумяненной и посыпанной кунжутом булочке.",
+    "allergens": "'Бургер-Соус' - продукты переработки яиц, лактоза, следы сельдерея, горчицы. Булочка - кунжут, глютен пшеничный. Сыр плавленный - молоко и продукты его переработки.",
+    "kbju": [220, 9.5, 10.9, 20.8],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Маринованного Огурца",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093139.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Соуса Кинг",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093145.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Сыра",
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1000045_DF67882EBDF72B8005D6E39841F8AAB3.webp",
+    "title": "Воппер Джуниор",
+    "price": 6.5,
+    "category": 1,
+    "burgersCategory": 0,
+    "weight": 130,
+    "info": "Приготовленный на огне бифштекс из 100% говядины, сочный помидор, свежий нарезанный салат, густой майонез, хрустящий огурчик и свежий лук на мягкой булочке, посыпанной кунжутом.",
+    "allergens": "Майонез-яичный желток, следы сельдерея, молока, горчицы, и продуктов их переработки. Кетчуп - сельдерей. Булочка - кунжут, глютен пшеничный.",
+    "kbju": [210, 6.5, 11, 21],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Маринованного Огурца",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093139.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Кетчупа",
+        "image": "https://burger-king.by/api/v1/files/path/1_1036161.webp"
+      },
+      {
+        "id": 5,
+        "name": "Без Майонеза",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093142.webp"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1076910_F5621E760A5ADB1A2B5C57D23293B930.webp",
+    "title": "Фиш Бургер",
+    "price": 8.9,
+    "category": 1,
+    "burgersCategory": 2,
+    "weight": 157,
+    "info": "Скучали по мне? Обновлённый рецепт с нежным филе рыбки, богатым омега-3, под соусом Тар-тар, салатом Айсберг, луком и маринованным огурчиком на картофельной булочке с кунжутом!",
+    "allergens": "Булочка - кунжут, глютен пшеничный, продукты переработки яиц и молока. Филе минтая в панировке - рыба, следы яиц, сои, молока, сельдерея, горчицы. Соус Тар-Тар - горчица, продукты переработки яиц",
+    "kbju": [209, 7, 9.6, 22.5],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 3,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1066354_D820F7D11E073DD67D30B8CFC937B2CA.webp",
+    "title": "Чикен Тар-Тар",
+    "price": 8.7,
+    "category": 1,
+    "burgersCategory": 1,
+    "weight": 185,
+    "info": "Мы приготовили что-то особенное! Новый соус Тартар подчеркивает вкус сочной курочки с сыром Пармезан! А ещё внутри свежие томаты, салат Айсберг, лучок — на картофельной булочке с кунжутом.",
+    "allergens": "Булочка - кунжут, глютен пшеничный, продукты переработки яиц и молока. Стрипсы куриные - глютен, сельдерей, продукты переработки молока, следы горчицы, кунжута, соевого белка, яичного белка. Соус ТАР-ТАР - горчица, продукты переработки яиц. Сыр 'Палермо' - молоко и продукты его переработки.",
+    "kbju": [202, 7.4, 9.9, 19.9],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1066368.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Соуса Тар-Тар",
+        "image": "https://burger-king.by/api/v1/files/path/1_1066371.webp"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1077530_E0030B76AF0D47E42FFAF89C985CA81C.webp",
+    "title": "Цезарь Кинг",
+    "price": 5.5,
+    "category": 1,
+    "burgersCategory": 1,
+    "weight": 140,
+    "info": "Любители курочки оценят новинку Цезарь Кинг! Сочные хрустящие куриные наггетсы, свежий томат и листовой салат заправляются соусом Цезарь и подаются на подрумяненной булочке с кунжутом.",
+    "allergens": "Булочка – кунжут, глютен пшеничный, следы яиц, молока. Наггетсы – следы горчицы, сельдерея, молока, глютена. Соус Цезарь – продукты яичные, лактоза.",
+    "kbju": [209, 5.9, 9.7, 24.5],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1093204_BC4E5374A1A35ED436478DCD6B96D903.webp",
+    "title": "Чикен Сырный дуэт",
+    "price": 12.9,
+    "category": 1,
+    "burgersCategory": 1,
+    "weight": 300,
+    "info": "Пробуй сырную новинку! Внутри сочная курочка под нежным сырным соусом в сочетании с пряным соусом Цезарь и тёртым пармезаном. Ещё здесь помидоры, лук, хрустящий салат Айсберг и маринованные огурчики. В самое сЫрдечко!",
+    "allergens": "Стрипсы – глютен, могут содержать горчицу, сельдерей, молоко и продукты их переработки. Булочка – кунжут, глютен пшеничный. Соус Цезарь – продукты яичные, лактоза. Сыр «Палермо» – молоко и продукты его переработки. Соус Сырный – лактоза, продукты яичные.",
+    "kbju": [190, 8, 7.5, 22],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Маринованного Огурца",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093139.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Лука",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093143.webp"
+      },
+      {
+        "id": 4,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      },
+      {
+        "id": 5,
+        "name": "Без Сырного Соуса",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093145.webp"
+      },
+      {
+        "id": 6,
+        "name": "Без Майонеза",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093142.webp"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://burger-king.by/api/v1/files/path/1_CategoryItem_1090818_988BA9703C56A11478573B3BCB0A363A.webp",
+    "title": "Фреш Чикенбургер",
+    "price": 4.00,
+    "category": 1,
+    "burgersCategory": 1,
+    "weight": 143,
+    "info": "Чикенбургер по летнему рецепту! Внутри куриная котлетка, сочность сырного соуса и соуса Пармезан, а также свежие овощи: салат Айсберг и томат - все на ароматной булочке с кунжутом.",
+    "allergens": "Котлета из мяса цыплят-бройлеров – может содержать горчицу, сельдерей, молоко, злаки (глютен) и продукты их переработки. Булочка – кунжут, глютен пшеничный, может содержать яйца, молоко. Соус Сырный – лактоза, продукты яичные. Соус «Со вкусом сыра Пармезан» - лактоза, яйца, может содержать горчицу, сельдерей.",
+    "kbju": [220, 7.5, 9.5, 25],
+    "addIngredients": [
+      {
+        "id": 0,
+        "name": "Помидор",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028589.webp"
+      },
+      {
+        "id": 1,
+        "name": "Сыр-бекон",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089727.webp"
+      },
+      {
+        "id": 2,
+        "name": "Сыр",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1079126.webp"
+      },
+      {
+        "id": 3,
+        "name": "Хрустящий лук",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028138.webp"
+      },
+      {
+        "id": 4,
+        "name": "Двойной сыр",
+        "price": 1.8,
+        "image": "https://burger-king.by/api/v1/files/path/1_1089725.webp"
+      },
+      {
+        "id": 5,
+        "name": "Перец Халапеньо",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1000053.webp"
+      },
+      {
+        "id": 6,
+        "name": "Огурец",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1028590.webp"
+      },
+      {
+        "id": 7,
+        "name": "Ломтик Бекона",
+        "price": 1.0,
+        "image": "https://burger-king.by/api/v1/files/path/1_1056831.webp"
+      }
+    ],
+    "removeIngredients": [
+      {
+        "id": 0,
+        "name": "Без Помидора",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093141.webp"
+      },
+      {
+        "id": 1,
+        "name": "Без Салата",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093140.webp"
+      },
+      {
+        "id": 2,
+        "name": "Без Сыра Пармезан",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093144.webp"
+      },
+      {
+        "id": 3,
+        "name": "Без Сырного Соуса",
+        "image": "https://burger-king.by/api/v1/files/path/1_1093145.webp"
+      }
+    ]
+  }
+]

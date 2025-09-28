@@ -1,0 +1,71 @@
+@import '../variables';
+
+.header-top__wrapper {
+  padding: 1rem 0;
+  border-bottom: .1rem solid #d7c7b4;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+
+  &__link {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $main;
+  }
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 0;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    &-delivery {
+      cursor: pointer;
+
+      & span {
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+
+      & p {
+        font-size: 1.6rem;
+        color: #845f50;
+      }
+    }
+  }
+}
+
+.header-main__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.header-main__right-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: $bgButton;
+  height: 4.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 2rem;
+
+  cursor: pointer;
+
+  &__price {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}

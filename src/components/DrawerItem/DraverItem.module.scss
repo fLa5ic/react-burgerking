@@ -1,0 +1,134 @@
+@import '../../scss/variables';
+
+.drawerItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+
+  border-bottom: .1rem solid #d7c7b4;
+
+  .image {
+    width: 35%;
+
+    & img {
+      display: block;
+      width: 100%;
+      height: auto;
+
+      margin-right: 0.8rem;
+    }
+  }
+
+  .productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 64%;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin-bottom: 1rem;
+
+      .title {
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: $main;
+      }
+
+      & svg {
+        cursor: pointer;
+      }
+    }
+
+    .removeAddedIng {
+      // display: none;
+      display: flex;
+      flex-direction: column;
+
+      & p {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #845f50;
+        margin-bottom: 0.4rem;
+      }
+    }
+    .removeAddedIngHidden {
+      display: none;
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+
+      margin-top: 1.2rem;
+
+      .changeBtn {
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 900;
+        color: #502314;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .counterAndPrice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1.2rem;
+
+        .counter {
+          display: flex;
+          align-items: center;
+          
+          .plus {
+            border-radius: 50%;
+            cursor: pointer;
+            border: 1px solid rgb(80, 35, 20);
+            width: 2.4rem;
+            height: 2.4rem;
+            fill: #502314;
+          }
+
+          .count {
+            width: 2rem;
+            height: 2.4rem;
+            margin: 0 .2rem;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #502314;
+            text-align: center;
+          }
+
+          .minus {
+            width: 2.4rem;
+            height: 2.4rem;
+            fill: #D7C7B5;
+            border-radius: 50%;
+            border: 1px solid rgb(215, 199, 181);
+            cursor: not-allowed;
+          }
+
+          .minusActive {
+            width: 2.4rem;
+            height: 2.4rem;
+            border-radius: 50%;
+            border: 1px solid rgb(80, 35, 20);
+            fill: #502314;
+            cursor: pointer;
+          }
+        }
+
+        .price {
+          font-size: 1.8rem;
+          font-weight: 900;
+          font-style: italic;
+          color: #502314;
+        }
+      }
+    }
+  }
+}

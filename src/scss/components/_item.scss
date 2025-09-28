@@ -1,0 +1,55 @@
+@import '../variables';
+
+.content-categoryInner__items-item {
+  padding: 1.6rem;
+  border-radius: 1rem;
+  background: $bgCard;
+  // width: 31%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  & img {
+    display: block;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    color: $main;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 3rem;
+
+    &-price {
+      font-size: 1.8rem;
+      color: $main;
+      font-weight: 700;
+    }
+
+    &-btn {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: $buttonColor;
+      background-color: $bgButton;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 10rem;
+      cursor: pointer;
+      transition: .25s ease-out opacity;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+}

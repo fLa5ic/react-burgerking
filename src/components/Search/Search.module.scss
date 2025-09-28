@@ -1,0 +1,59 @@
+@import '../../scss/variables';
+
+.search {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  .input {
+    background-color: #fff;
+    border: 2px solid #d7c7b4;
+    border-radius: 32px;
+    color: #502314;
+    height: 4.6rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    width: 34rem;
+  }
+
+  .searchSvg {
+    position: absolute;
+    z-index: 99;
+    right: 1.2rem;
+    cursor: pointer;
+    fill: #d7c7b4;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .clearIcon {
+    width: 2.2rem;
+    height: 2.2rem;
+    opacity: .3;
+    position: absolute;
+    right: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  .popup {
+    background-color: $white;
+    border-radius: 1rem;
+    padding: 1.6rem 0;
+
+    width: 34rem;
+    max-height: 53rem;
+
+    position: absolute;
+    top: 5.5rem;
+    z-index: 101;
+
+    box-shadow: 0 0 1.2rem #5023141f;
+
+    overflow: auto;
+  }
+}

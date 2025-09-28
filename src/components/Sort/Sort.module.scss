@@ -1,0 +1,74 @@
+@import '../../scss/variables';
+
+.sortWrapper {
+  position: relative;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .arrowSvg {
+    display: flex;
+    align-items: center;
+    transition: transform .3s ease;
+
+    &.rotated {
+      transform: rotate(180deg);
+    }
+
+    svg {
+      width: 2rem;
+      transform: rotate(180deg);
+    }
+  }
+
+  .title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: $main;
+    margin-right: 1rem;
+  }
+
+  span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #845f50;
+  }
+}
+
+.popup {
+  display: block;
+  background-color: $white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: .5rem;
+
+  width: 18rem;
+
+  position: absolute;
+  right: 0;
+  z-index: 99;
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #845f50;
+    cursor: pointer;
+
+    transition: all .25s ease-out;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      font-size: 1.5rem;
+      font-weight: 900;
+      text-decoration: underline;
+      color: #845f50;
+    }
+  }
+}

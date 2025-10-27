@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# 🍔 Burger King - React приложение меню
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Интерактивное меню бургерной с корзиной, фильтрацией и адаптивным дизайном.
 
-## Available Scripts
+🌐 **Live Demo:** [https://fLa5ic.github.io/react-burgerking](https://fLa5ic.github.io/react-burgerking)
 
-In the project directory, you can run:
+## ✨ Особенности
 
-### `npm start`
+- 🍕 **Каталог товаров** - Бургеры, роллы, креветки и многое другое
+- 🛒 **Корзина** - Добавление товаров с дополнительными ингредиентами
+- 🔍 **Поиск** - Поиск блюд в реальном времени
+- 📱 **Адаптивный дизайн** - Оптимизировано для мобильных (375px+), планшетов (769px+) и десктопа
+- 🎨 **Фильтрация** - По категориям и подкатегориям
+- 📊 **Сортировка** - По цене и алфавиту (возрастание/убывание)
+- 💾 **LocalStorage** - Сохранение корзины в локальном хранилище
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Технологии
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React 19** - UI библиотека
+- **TypeScript** - Типизация
+- **Redux Toolkit** - State management
+- **React Router** - Маршрутизация
+- **SCSS** - Стилизация с модулями
+- **Axios** - HTTP запросы
+- **Classnames** - Условные классы
 
-### `npm test`
+## 🚀 Быстрый старт
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Установка
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Запуск в режиме разработки
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Приложение откроется на [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+### Сборка для продакшена
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Собранные файлы будут в папке `build/`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Структура проекта
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/      # React компоненты
+│   ├── Drawer/       # Корзина покупок
+│   ├── Search/       # Поиск товаров
+│   ├── Item/         # Карточка товара
+│   └── ...
+├── pages/            # Страницы приложения
+├── redux/            # Redux store и слайсы
+├── scss/             # Стили (SCSS модули)
+└── utils/            # Вспомогательные функции
+```
 
-## Learn More
+## 📱 Адаптивность
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Mobile**: ≤ 376px
+- **Tablet**: 377px - 769px
+- **Desktop**: > 769px
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 Основной функционал
 
-### Code Splitting
+### Каталог товаров
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Выбор категории (Бургеры, Роллы, Креветки и т.д.)
+- Подкатегории для бургеров (Говядина, Курица, Рыба)
+- Сортировка по цене и алфавиту
 
-### Analyzing the Bundle Size
+### Страница товара
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Детальная информация
+- КБЖУ
+- Добавление/удаление ингредиентов
+- Счетчик количества
 
-### Making a Progressive Web App
+### Корзина
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Добавленные товары
+- Итоговая стоимость
+- LocalStorage синхронизация
 
-### Advanced Configuration
+### Поиск
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Поиск в реальном времени
+- Debounce оптимизация
+- Автодополнение
 
-### Deployment
+## 🔧 API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Приложение использует API: [https://90746f9cd0776131.mokky.dev/burgers](https://90746f9cd0776131.mokky.dev/burgers)
 
-### `npm run build` fails to minify
+## 📦 Деплой
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Автоматический деплой на GitHub Pages через GitHub Actions.
+
+Рабочий процесс находится в `.github/workflows/deploy.yml`
+
+## 🎨 Дизайн
+
+Использованы цветовые переменные:
+
+- Основной цвет: `#502314`
+- Цвет кнопки: `#f58538`
+- Фон карточек: `#fcf6ec`
+- Фон страницы: `#f5ebdc`
+
+## 📝 Лицензия
+
+MIT
+
+## 👤 Автор
+
+Разработано с использованием React и TypeScript

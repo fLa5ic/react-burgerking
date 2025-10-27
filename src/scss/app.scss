@@ -13,6 +13,11 @@
 
   // border-right: 1px solid green;
   // border-left: 1px solid green;
+
+  @media(max-width: 769px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 *,
@@ -50,6 +55,14 @@ body {
   height: 100%;
 
   background: $buttonColor;
+
+  @media (max-width: 376px) {
+    min-width: 375px;
+  }
+
+  @media (min-width: 377px) and (max-width: 769px) {
+    min-width: 768px;
+  }
 }
 
 .itemPageBlock-wrap {

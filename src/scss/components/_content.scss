@@ -8,6 +8,14 @@
     background: $bgCard;
     border-radius: 1rem;
 
+    @media(max-width: 376px) {
+      display: none;
+    }
+
+    @media(min-width: 377px) and (max-width: 769px) {
+      display: none;
+    }
+
     &__item {
       display: flex;
       align-items: center;
@@ -46,6 +54,11 @@
   align-items: center;
   gap: .5rem;
 
+  @media(max-width: 376px) {
+    width: 100%;
+    // overflow-x: auto;
+  }
+
   &__btn {
     font-size: 1.7rem;
     font-weight: 700;
@@ -66,6 +79,11 @@
     &:hover {
       background-color: $bgCard;
     }
+
+    @media(max-width: 376px) {
+      font-size: 1.5rem;
+      padding: .8rem 1.8rem;
+    }
   }
 }
 
@@ -84,14 +102,33 @@
     font-weight: 900;
     color: $main;
     margin-bottom: 3rem;
+
+    @media(max-width: 376px) {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
   }
 
   &__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+
+    @media(max-width: 376px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
+  }
+
+  @media(max-width: 376px) {
+    width: 100%;
+  }
+
+  @media(min-width: 377px) and (max-width: 769px) {
+    width: 100%;
   }
 }
 
@@ -100,4 +137,9 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2.5rem;
+
+  @media(max-width: 376px) {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
 }

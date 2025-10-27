@@ -3,6 +3,14 @@
 .header-top__wrapper {
   padding: 1rem 0;
   border-bottom: .1rem solid #d7c7b4;
+
+  @media(max-width: 376px) {
+    display: none;
+  }
+
+  @media(min-width: 377px) and (max-width: 769px) {
+    display: none;
+  }
 }
 
 .header-top {
@@ -31,6 +39,14 @@
 
     &-delivery {
       cursor: pointer;
+
+      @media(max-width: 376px) {
+        display: none;
+      }
+
+      @media(min-width: 377px) and (max-width: 769px) {
+        display: none;
+      }
 
       & span {
         font-size: 1.8rem;
@@ -67,5 +83,9 @@
   &__price {
     font-size: 1.4rem;
     font-weight: 700;
+
+    @media(max-width: 376px) {
+      display: none;
+    }
   }
 }

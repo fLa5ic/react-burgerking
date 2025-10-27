@@ -28,8 +28,6 @@ const Home: React.FC = () => {
    const { burgers } = useSelector((state: RootState) => state.burgers);
    const status = useSelector((state: RootState) => state.burgers.status);
 
-   // const [burgers, setBurgers] = React.useState([]);
-
    const getBurgers = async () => {
       if (categoryId === 3) {
          const subCategory = subCategoryId < 3 ? `burgersCategory=${subCategoryId}` : '';

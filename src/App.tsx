@@ -8,12 +8,14 @@ import NotFound from './pages/NotFound';
 import ItemPage from './pages/ItemPage';
 // import Cart from './pages/Cart';
 import Drawer from './components/Drawer';
+import MobileCategories from './components/MobileCategories';
 
 function App() {
    return (
       <div className="App">
          <Drawer />
          <Header />
+         <MobileCategories />
          <div className="content">
             <Routes>
                <Route path="/" element={<Home />} />

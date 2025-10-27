@@ -8,6 +8,10 @@
 
   position: relative;
 
+  @media(max-width: 376px) {
+    display: none;
+  }
+
   .addedPopup {
     position: absolute;
     top: -5.3rem;
@@ -78,10 +82,18 @@
   display: flex;
   justify-content: space-between;
 
+  @media(max-width: 376px) {
+    flex-direction: column;
+  }
+
   .left {
     display: flex;
     flex-direction: column;
     width: 40%;
+
+    @media(max-width: 376px) {
+      width: 100%;
+    }
 
     & img {
       display: block;
@@ -171,6 +183,10 @@
   .right {
     width: 58%;
 
+    @media(max-width: 376px) {
+      width: 100%;
+    }
+
     .top {
       display: flex;
       align-items: center;
@@ -183,6 +199,12 @@
       font-size: 4rem;
       font-weight: 900;
       color: $main;
+
+      @media(max-width: 376px) {
+        .title {
+          display: none;
+        }
+      }
     }
 
     .info {

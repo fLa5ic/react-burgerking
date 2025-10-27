@@ -84,6 +84,9 @@
       font-size: 1.5rem;
       padding: .8rem 1.8rem;
     }
+    @media(min-width: 377px) and (max-width: 769px) {
+      padding: 1rem 2.5rem;
+    }
   }
 }
 

@@ -37,9 +37,6 @@ interface ItemPageBlockProps {
 
 const ItemPageBlock: React.FC<ItemPageBlockProps> = ({ itemId }) => {
    const dispatch = useDispatch();
-   //   const cartItem = useSelector((state) => state.drawer.items.find((obj) => obj.itemId === itemId));
-
-   //   const changeCount = cartItem ? cartItem.count : 1;
 
    const [itemData, setItemData] = React.useState<IItemData | null>(null);
    const [isLoading, setIsLoading] = React.useState(true);
@@ -52,6 +49,19 @@ const ItemPageBlock: React.FC<ItemPageBlockProps> = ({ itemId }) => {
 
    const [showPopup, setShowPopup] = React.useState(false);
    const [isFading, setIsFading] = React.useState(false);
+
+   const [isMobile, setIsMobile] = React.useState(false);
+
+   React.useEffect(() => {
+      const checkScreenSize = () => {
+         setIsMobile(window.innerWidth < 768);
+      };
+
+      checkScreenSize();
+      window.addEventListener('resize', checkScreenSize);
+
+      return () => window.removeEventListener('resize', checkScreenSize);
+   }, []);
 
    const onClickAddToDrawer = () => {
       if (!itemData) return;
@@ -165,6 +175,41 @@ const ItemPageBlock: React.FC<ItemPageBlockProps> = ({ itemId }) => {
 
       return (baseTotal + ingredientsTotal).toFixed(2);
    };
+
+   if (isMobile) {
+      return (
+         <>
+            <div className={styles.nav}>
+               {showPopup && (
+                  <div className={`${styles.addedPopup} ${isFading ? styles.fadeOut : ''}`}>
+                     Добавлено: {itemData.title} ✅
+                  </div>
+               )}
+               <Link to="/" className={styles.link}>
+                  Главная
+               </Link>
+               <img src={arrowSvg} alt="" />
+               <div className={styles.notActive}>{title}</div>
+            </div>
+            <div className={styles.content}>
+               <div className={styles.title}>{title}</div>
+               <img src={imageUrl} alt={`Фото блюда: ${title}`} />
+               <div className={styles.footnote}>* Вариант иллюстрации компоновки блюд</div>
+               <div className={styles.title}>Добавить ингредиенты</div>
+               <div className={styles.itemsWrap}>
+                  {addIngredients.map((ingredient) => (
+                     <IngredientItem
+                        isSelected={addedIds.includes(ingredient.id)}
+                        onClick={() => handleIngredientAdd(ingredient.id)}
+                        key={ingredient.id}
+                        {...ingredient}
+                     />
+                  ))}
+               </div>
+            </div>
+         </>
+      );
+   }
 
    return (
       <>

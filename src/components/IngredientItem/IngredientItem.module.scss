@@ -13,6 +13,11 @@
 
   background: $bgCard;
 
+  @media(max-width: 376px) {
+    width: 12.8rem;
+    height: 21rem;
+  }
+
   .price {
     display: block;
     margin-right: 0;
@@ -48,12 +53,18 @@
     font-weight: 800;
     color: $main;
     padding: 0.6rem 2rem;
+    white-space: nowrap;
 
     border: .1rem solid $main;
     border-radius: 5rem;
     cursor: pointer;
 
     background: none;
+
+    @media(max-width: 376px) {
+      font-size: 1.2rem;
+      padding: 0.5rem 1.5rem;
+    }
 
     // transition: border, background .25s ease-out;
 
@@ -62,14 +73,21 @@
     //   border: .1rem solid rgba(215, 199, 181, 0.5);
     // }
   }
+
   .addedIngredient {
     font-size: 1.4rem;
     font-weight: 800;
     color: $main;
     padding: 0.6rem 2rem;
+    white-space: nowrap;
     border-radius: 5rem;
     cursor: pointer;
     background: rgba(215, 199, 181, 0.5);
     border: .1rem solid rgba(215, 199, 181, 0.5);
+
+    @media(max-width: 376px) {
+      font-size: 1.2rem;
+      padding: 0.5rem 1.5rem;
+    }
   }
 }

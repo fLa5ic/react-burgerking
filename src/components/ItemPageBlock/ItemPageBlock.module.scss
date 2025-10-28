@@ -411,3 +411,249 @@
     }
   }
 }
+
+
+
+.mobilecontent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  & img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .mobiletitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $main;
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+
+  .mobilefootnote {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #9f816f;
+    margin-bottom: 3rem;
+  }
+
+  .mobileIngtitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $main;
+    margin-bottom: 1.6rem;
+  }
+
+  .mobileitemsWrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.5rem;
+
+    // Скрываем скроллбар для мобильных устройств
+    scrollbar-width: thin;
+    scrollbar-color: #d7c7b5 transparent;
+
+    &::-webkit-scrollbar {
+      height: 0.6rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d7c7b5;
+      border-radius: 1rem;
+    }
+
+    // Убираем flex-wrap чтобы элементы шли в одну строку
+    flex-wrap: nowrap;
+
+    // Скрываем скролл для Firefox
+    & {
+      scrollbar-width: thin;
+    }
+  }
+}
+
+.mobiledeleteIngredientsWrap {
+  margin-top: 3.5rem;
+
+  .mobiletitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $main;
+    text-align: left;
+    margin-bottom: 1.6rem;
+  }
+
+  .mobiledeleteButtons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .8rem;
+  }
+}
+
+.mobiledeleteButton {
+  display: flex;
+  align-items: center;
+
+  background-color: #d7c7b5;
+  border: .1rem solid transparent;
+
+  padding: 0.6rem 1.2rem;
+
+  border-radius: 5rem;
+
+  cursor: pointer;
+
+  img {
+    display: block;
+    width: 2.4rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: $main;
+    margin-left: .4rem;
+    margin-right: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .mobiledeleteSvg {
+    cursor: pointer;
+    width: 2rem;
+  }
+}
+
+.mobiledeleteButtonDeleted {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: .1rem solid #d7c7b5;
+
+  padding: 0.6rem 1.2rem;
+
+  border-radius: 5rem;
+
+  cursor: pointer;
+
+  img {
+    display: block;
+    width: 2.4rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: $main;
+    text-decoration: line-through;
+    margin-left: .4rem;
+    margin-right: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .mobiledeleteSvg {
+    cursor: pointer;
+    width: 2rem;
+  }
+}
+
+.mobiletext {
+  margin-top: 3.5rem;
+
+  .mobiletitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $main;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .mobiledesc {
+    color: #845f50;
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+.mobileweightInfo {
+  margin-top: 3.5rem;
+
+  .mobiletitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $main;
+    text-align: left;
+    margin-bottom: 1.6rem;
+  }
+
+  .mobilekbju {
+    display: flex;
+    flex-direction: column;
+
+    .mobiletitle {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: $main;
+      margin-bottom: 1rem;
+    }
+
+    .mobileitems {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+
+      .mobileitem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        text-align: center;
+        font-size: 1.6rem;
+        border: .1rem solid rgb(215, 199, 181);
+        border-radius: 1rem;
+
+        width: 6.4rem;
+        height: 6.4rem;
+
+        p {
+          color: #845f50;
+          font-weight: 500;
+          margin-bottom: 0.4rem;
+        }
+
+        span {
+          font-weight: 700;
+          color: $main;
+        }
+      }
+    }
+
+    .mobilesubtitle {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: $main;
+      margin-top: 1rem;
+    }
+
+    .mobiledescription {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #845f50;
+      line-height: 2rem;
+
+      margin-top: 1rem;
+    }
+  }
+}

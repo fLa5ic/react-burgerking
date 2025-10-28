@@ -191,12 +191,12 @@ const ItemPageBlock: React.FC<ItemPageBlockProps> = ({ itemId }) => {
                <img src={arrowSvg} alt="" />
                <div className={styles.notActive}>{title}</div>
             </div>
-            <div className={styles.content}>
-               <div className={styles.title}>{title}</div>
+            <div className={styles.mobilecontent}>
+               <div className={styles.mobiletitle}>{title}</div>
                <img src={imageUrl} alt={`Фото блюда: ${title}`} />
-               <div className={styles.footnote}>* Вариант иллюстрации компоновки блюд</div>
-               <div className={styles.title}>Добавить ингредиенты</div>
-               <div className={styles.itemsWrap}>
+               <div className={styles.mobilefootnote}>* Вариант иллюстрации компоновки блюд</div>
+               <div className={styles.mobileIngtitle}>Добавить ингредиенты</div>
+               <div className={styles.mobileitemsWrap}>
                   {addIngredients.map((ingredient) => (
                      <IngredientItem
                         isSelected={addedIds.includes(ingredient.id)}
@@ -205,6 +205,55 @@ const ItemPageBlock: React.FC<ItemPageBlockProps> = ({ itemId }) => {
                         {...ingredient}
                      />
                   ))}
+               </div>
+               <div className={styles.mobiledeleteIngredientsWrap}>
+                  <div className={styles.mobiletitle}>Убрать игредиенты</div>
+                  <div className={styles.mobiledeleteButtons}>
+                     {itemData.removeIngredients.map((ingredient) => (
+                        <div
+                           key={ingredient.id}
+                           onClick={() => handleIngredientClick(ingredient.id)}
+                           className={
+                              removedIds.includes(ingredient.id)
+                                 ? styles.mobiledeleteButtonDeleted
+                                 : styles.mobiledeleteButton
+                           }>
+                           <img src={ingredient.image} alt={ingredient.name} />
+                           <p>{ingredient.name}</p>
+                           <img className={styles.mobiledeleteSvg} src={deleteSvg} alt="" />
+                        </div>
+                     ))}
+                  </div>
+               </div>
+               <div className={styles.mobiletext}>
+                  <div className={styles.mobiletitle}>Информация</div>
+                  <div className={styles.mobiledesc}>{info}</div>
+               </div>
+               <div className={styles.mobileweightInfo}>
+                  <div className={styles.mobiletitle}>Вес: {weight} г</div>
+                  <div className={styles.mobilekbju}>
+                     <div className={styles.mobiletitle}>На 100г продукта</div>
+                     <div className={styles.mobileitems}>
+                        <div className={styles.mobileitem}>
+                           <p>кКал</p>
+                           <span>{itemData.kbju[0]}</span>
+                        </div>
+                        <div className={styles.mobileitem}>
+                           <p>Белки</p>
+                           <span>{itemData.kbju[1]}г</span>
+                        </div>
+                        <div className={styles.mobileitem}>
+                           <p>Жиры</p>
+                           <span>{itemData.kbju[2]} г</span>
+                        </div>
+                        <div className={styles.mobileitem}>
+                           <p>Углев.</p>
+                           <span>{itemData.kbju[3]} г</span>
+                        </div>
+                     </div>
+                     <div className={styles.mobilesubtitle}>Может содержать аллергены:</div>
+                     <div className={styles.mobiledescription}>{allergens}</div>
+                  </div>
                </div>
             </div>
          </>
